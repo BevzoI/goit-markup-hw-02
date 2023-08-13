@@ -1,2 +1,2 @@
-# goit-markup-hw-01a
+# goit-markup-hw-01
 Home work MCS
