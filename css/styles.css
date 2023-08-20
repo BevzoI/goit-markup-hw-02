@@ -1,0 +1,38 @@
+:root {
+    /*Fonts */
+    --main-font: Roboto;
+    /* Colors */
+    --main-cl: E5E5E5;
+    --primary-cl: ;
+    --secondary-cl: ;
+    --accent-cl: ;
+    --info-cl: ;
+    --error-cl: ;
+    --warning-cl: ;
+}
+/**
+|===============================
+| Base styles
+|===============================
+*/
+body {
+    font-family : Roboto;
+    color: #111111;
+    background-color: #FFFFFF;
+
+    /* Default styles */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+letter-spacing: normal;
+line-height: 1.2;
+    }
+
+/* header style */
+header {
+font-family: Roboto ;
+weight: Bold ;
+size: 56px ;
+letter spacing: 2% ;
+line height: 60px ;
+}
