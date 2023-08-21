@@ -19,6 +19,7 @@ body {
     font-family : Roboto;
     color: #111111;
     background-color: #FFFFFF;
+    text-decoration: none;
 
     /* Default styles */
     font-size: 16px;
@@ -26,13 +27,18 @@ body {
     font-weight: 400;
 letter-spacing: normal;
 line-height: 1.2;
+text-decoration: none;
     }
+    .link {
+        text-decoration: none;
+        }
 
 /* header style */
 header {
 font-family: Roboto ;
 weight: Bold ;
 size: 56px ;
+text-decoration: none;
 }
 .heder-logo {
     color:#2E2F42;
@@ -42,22 +48,26 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
+text-decoration: none;
 }
 .header-logo-accent {
-    font-family: Raleway;
+font-family: Raleway;
 font-size: 18px;
 font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
 color: #4D5AE5;
+text-decoration: none;
 }
 /*header-nav-list*/
 .link:active {
     color:404BBF;
+    text-decoration: none;
 }
-address:active{
+.address-link:active{
     color:404BBF;
+    text-decoration: none;
 }
 
 /*hero image*/
@@ -87,7 +97,7 @@ border-radius: 4px;
 gap: 10px;
 cursor: pointer;
 }
-.hero-btn: hover{
+.hero-btn hover{
     background-color: 404BBF;
 }
 
@@ -125,6 +135,7 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
+text-decoration: none;
 }
 .footer-logo-accent {
     font-family: Raleway;
@@ -134,6 +145,7 @@ line-height: 21px;
 letter-spacing: 0.03em;
 text-align: left;
 color: #4D5AE5;
+text-decoration: none;
 }
 .footer-text {
     color:#F4F4FD;
@@ -151,3 +163,13 @@ color: #4D5AE5;
     cursor: pointer;
 }
 /*all images*/
+.images-subtitle {
+    font-family: Roboto;
+    Weight: Medium;
+    Size: 20px;
+}
+.images-text {
+    font-family: Roboto;
+    Weight: Regular;
+    Size: 16px;
+}
