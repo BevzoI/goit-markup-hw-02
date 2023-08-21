@@ -1,14 +1,21 @@
 :root {
-    /*Fonts */
-    --main-font: Roboto;
-    /* Colors */
-    --main-cl: E5E5E5;
-    --primary-cl: ;
-    --secondary-cl: ;
-    --accent-cl: ;
-    --info-cl: ;
-    --error-cl: ;
-    --warning-cl: ;
+    --default-font: 'Roboto', sans-serif;
+    --accent-font: 'Raleway', sans-serif;
+    --cl-primary_brand: rgba(77, 90, 229, 1);
+    --cl-pressed_state: rgba(64, 75, 191, 1);
+    --cl-dark: rgba(46, 47, 66, 1);
+    --cl-success: rgba(49, 208, 170, 1);
+    --cl-text: rgba(67, 68, 85, 1);
+    --cl-subtle_text: rgba(142, 143, 153, 1);
+    --cl-accent: rgba(231, 233, 252, 1);
+    /* --cl-accent: #F4F4FD; */
+    /* --cl-accent: rgba(231, 233, 252, 1); */
+    --cl-accent: #F4F4FD;
+    --cl-light : rgba(244, 244, 253, 1);
+    --cl-modal_overlay: rgba(46, 47, 66, 0.4);
+    --cl-hero_background: rgba(46, 47, 66, 0.7);
+    --cl-white_background: rgba(255, 255, 255, 1);
+    --cl-modal_background: gba(252, 252, 252, 1);
 }
 /**
 |===============================
@@ -16,8 +23,8 @@
 |===============================
 */
 body {
-    font-family : Roboto;
-    color: #111111;
+    font-family : "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
     text-decoration: none;
 
@@ -32,73 +39,108 @@ text-decoration: none;
     .link {
         text-decoration: none;
         }
-
+    .list {
+        list-style: none;
+    }
 /* header style */
 header {
 font-family: Roboto ;
 weight: Bold ;
 size: 56px ;
 text-decoration: none;
+font-weight: 500 ;
+font-size: 16px ;
+line-height: 1.5 ;
+letter-spacing: 0.02em;
+a {
+    color: #434455; 
+}
+a:hover,
+a:fokus {
+    color:#2E2F42;
+}
+text-decoration: none;
+a {
+    color: #434455; 
+}
+a:active {
+    color:#404bbf;
+}
 }
 .heder-logo {
     color:#2E2F42;
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
+text-transform: uppercase;
 }
 .header-logo-accent {
-font-family: Raleway;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-align: left;
-color: #4D5AE5;
 text-decoration: none;
+text-transform: uppercase;
+color:#4D5AE5;
 }
 /*header-nav-list*/
 .link:active {
     color:404BBF;
     text-decoration: none;
 }
-.address-link:active{
+.address-list:active{
     color:404BBF;
     text-decoration: none;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    a {
+        color: 2E2F42; 
+    }
+    a:hover,
+    a:fokus {
+        color:#404bbf;
+    }
+    text-decoration: none;
+    a {
+        color: #434455; 
+    }
+    a:active {
+        color:#404bbf;
+    }
 }
 
 /*hero image*/
-.hero {
+.hero-img {
     color:#FFFFFF;
     background-color:#2E2F42;
 font-family: Roboto;
 font-size: 56px;
 font-weight: 700;
-line-height: 60px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 }
 .hero-btn {
+    font-family: "Roboto", sans-serif;
+font-size: 16px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.04em;
 text-align: left;
-color:#FFFFFF;
-background-color: #4D5AE5;
-width: Hug (169px);
-height: Hug (56px);
-top: 428px;
-left: 636px;
-padding: 16px 32px 16px 32px;
-border-radius: 4px;
-gap: 10px;
-cursor: pointer;
+background: var(--cl-primary_brand);
+color: var(--cl-white_background);
 }
-.hero-btn hover{
-    background-color: 404BBF;
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: var(--cl-pressed_state);
 }
 
 /*section 1*/
@@ -107,18 +149,40 @@ cursor: pointer;
 }
 .advantages-subtitle {
     color:2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .advantages-text {
     color:434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /*section 2*/
-.section2 {
+.section2-title {
     color:2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /*section 3*/
+.section-team{
+    background-color: #F4F4FD;
+}
+.team-line {
+    background-color: #FFFFFF;
+}
 .team-subtitle {
     color:2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .team-text {
     color:434455;
