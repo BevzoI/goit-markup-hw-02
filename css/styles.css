@@ -240,7 +240,7 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.btn-filter {
+.all-btn-filter {
     background: var(--cl-pressed_state);
     color: var(--cl-white_background);   
 }
