@@ -104,7 +104,7 @@ color:var(--cl-primary_brand);
 }
 
 /*hero image*/
-.hero-img {
+.title-hero {
     color:#FFFFFF;
     background-color:#2E2F42;
 font-family: "Roboto", sans-serif;
@@ -150,7 +150,7 @@ color: var(--cl-white_background);
 }
 /*section 2*/
 .section2-title {
-    color:var(--cl-text);
+    color:var(--#2e2f42);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -159,16 +159,29 @@ color: var(--cl-white_background);
 }
 
 /*section 3*/
+.section3-team {
+    background-color: #F4F4FD;
+}
 .section-team{
-    background-color: var(--cl-light);
+    background-color: var( #2e2f42);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
 }
 .team-line {
     background-color: var(--cl-white_background);
 }
+.team-info {
+    background-color: #FFFFFF ;
+}
 .team-subtitle {
-    color:var(--cl-text);
-    font-size: 36px;
-    line-height: 1.11;
+    color:var(--#2e2f42);
+    font-size: 20px ;
+    font-weight: 500;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -183,7 +196,7 @@ color: var(--cl-white_background);
 .footer{
     background-color: var(--cl-dark);
 }
-.footer-logo{
+.footer-span-logo{
     color: #F4F4FD;
 font-family:  "Raleway", sans-serif;
 font-size: 18px;
@@ -212,28 +225,43 @@ text-decoration: none;
 /*portfolio*/
 /*filter btn active*/
 .btn-all {
-    color: #D9D9D9;
-    background-color: #404BBF;
+    color: var(#D9D9D9);
+    background-color: var(#404BBF);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .btn {
     color: #4D5AE5;
     background-color: #E7E9FC;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 /*all images*/
 .images-subtitle {
-    font-family: Roboto;
-    weight: Medium;
-    Size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+    letter-spacing: 0.02em;
+    color: var(2e2f42);
 }
 .images-text {
-    font-family: Roboto;
-    Weight: Regular;
-    Size: 16px;
+    font-family: "Roboto" sans-serif;
+    font-size: 16px ;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em;
+    color: var(#434455)
 }
 
-/*portfolio page*/
+
 .btn-filter {
     background: var(--cl-accent);
 
