@@ -119,6 +119,9 @@ text-transform: uppercase;
 }
 
 /*hero image*/
+.hero-img {
+    background-color: var(--cl-hero_background);
+}
 .title-hero {
     color:#FFFFFF;
     background-color:var(--cl-hero_background);
@@ -164,7 +167,7 @@ color: var(--cl-white_background);
     letter-spacing: 0.02em;
 }
 /*section 2*/
-.section2-title {
+.title-section-img {
     color:var(--cl-dark);
     font-size: 36px;
     line-height: 1.11;
@@ -174,7 +177,7 @@ color: var(--cl-white_background);
 }
 
 /*section 3*/
-.section3-team {
+.section-team-foto {
     background-color: #F4F4FD;
 }
 .section-team{
@@ -193,7 +196,7 @@ color: var(--cl-white_background);
     background-color: #FFFFFF ;
 }
 .team-subtitle {
-    color:var(--#2e2f42);
+    color:var(--cl-text);
     font-size: 20px ;
     font-weight: 500;
     line-height: 1.2;
@@ -202,7 +205,7 @@ color: var(--cl-white_background);
     text-transform: capitalize;
 }
 .team-text {
-    color: var(--cl-text);
+    color: var(--cl-subtle_text);
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
