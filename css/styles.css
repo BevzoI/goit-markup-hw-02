@@ -59,7 +59,7 @@ header:focus {
 }
 
 .heder-logo {
-color:var(--cl-dark);
+color:var(--cl-text);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
