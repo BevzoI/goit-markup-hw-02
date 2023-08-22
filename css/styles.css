@@ -99,6 +99,9 @@ color:var(--cl-primary_brand);
 .address-list:focus {
     color: var(--cl-pressed_state);
 }
+.address-mail-tel {
+    font-style: normal;
+}
 
 /*hero image*/
 .hero-img {
@@ -221,7 +224,7 @@ text-decoration: none;
 /*all images*/
 .images-subtitle {
     font-family: Roboto;
-    Weight: Medium;
+    weight: Medium;
     Size: 20px;
 }
 .images-text {
