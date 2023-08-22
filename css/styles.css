@@ -70,7 +70,7 @@ text-decoration: none;
 text-transform: uppercase;
 }
 .header-logo-accent {
-    color:var(--cl-primary_brand);
+    color: var(--cl-primary_brand);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -110,6 +110,8 @@ text-transform: uppercase;
 }
 .address-mail-tel {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .address-mail-tel:hover,
 .address-mail-tel:fokus {
@@ -221,13 +223,14 @@ text-align: left;
 text-decoration: none;
 }
 .footer-logo-accent {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 text-align: left;
-color: #4D5AE5;
+color: var(--cl-primary_brand);
 text-decoration: none;
 }
 .footer-text {
