@@ -71,6 +71,7 @@ text-decoration: none;
 text-transform: uppercase;
 }
 .header-logo-accent {
+    color:var(--cl-primary_brand);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -79,13 +80,22 @@ letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
 text-transform: uppercase;
-color:var(--cl-primary_brand);
 }
 
 /*header-nav-list*/
 .link:active {
     color:404BBF;
     text-decoration: none;
+}
+.header-nav-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: var(--cl-dark);
+}
+.header-nav-link:hover,
+.header-nav-link:fokus {
+    color: var(--cl-pressed_state);
 }
 .address-list {
     color:404BBF;
@@ -101,6 +111,10 @@ color:var(--cl-primary_brand);
 }
 .address-mail-tel {
     font-style: normal;
+}
+.address-mail-tel:hover,
+.address-mail-tel:fokus {
+    color: var(--cl-pressed_state);
 }
 
 /*hero image*/
