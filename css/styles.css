@@ -45,7 +45,6 @@ text-decoration: none;
 /* header style */
 header {
 font-family: Roboto ;
-weight: Bold ;
 size: 56px ;
 text-decoration: none;
 font-weight: 500 ;
@@ -120,7 +119,7 @@ text-transform: uppercase;
 /*hero image*/
 .title-hero {
     color:#FFFFFF;
-    background-color:var(--cl-dark);
+    background-color:var(--cl-hero_background);
 font-family: "Roboto", sans-serif;
 font-size: 56px;
 font-weight: 700;
