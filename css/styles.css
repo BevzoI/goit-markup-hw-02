@@ -181,8 +181,8 @@ color: var(--cl-white_background);
 .section-team-foto {
     background-color: var(--cl-light);
 }
-.section-team{
-    background-color: var(--cl-dark);
+.section-team {
+    color: var(--cl-dark);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
