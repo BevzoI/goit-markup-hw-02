@@ -59,7 +59,7 @@ header:focus {
 }
 
 .heder-logo {
-color:var(--cl-dark);
+color: var(--cl-dark);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -84,20 +84,20 @@ text-transform: uppercase;
 /*header-nav-list*/
 .header-nav-link:active {
     color: var(--cl-pressed_state);
-    text-decoration: none;
 }
 .header-nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: var(--cl-dark);
+    text-decoration: none;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: var(--cl-pressed_state);
 }
 .address-list {
-    color:404BBF;
+    color: var(--cl-text);
     text-decoration: none;
     font-style: normal;
     line-height: 1.5;
@@ -109,10 +109,11 @@ text-transform: uppercase;
     color: var(--cl-pressed_state);
 }
 .address-mail-tel {
+    color: var(--cl-text);
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .address-mail-tel:hover,
 .address-mail-tel:focus {
