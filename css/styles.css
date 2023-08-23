@@ -247,13 +247,14 @@ text-decoration: none;
 /*filter btn active*/
 .btn-filter {
     background: var(--cl-accent);
-
     color: var(--cl-primary_brand);
     text-align: center;
-
+    font-family: "Roboto", sans-serif;
+    font-size: 16px ;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em ;
+    cursor: pointer;
 }
 
 .btn-filter:hover,
@@ -262,7 +263,7 @@ text-decoration: none;
     color: var(--cl-white_background);
 }
 /*all images*/
-.images-link {
+.images-link link {
     text-decoration: none;
     background: var(--cl-white_background);
 
