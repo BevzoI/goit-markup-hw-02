@@ -1,21 +1,21 @@
 :root {
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
-    --cl-primary_brand: rgba(77, 90, 229, 1);
-    --cl-pressed_state: rgba(64, 75, 191, 1);
-    --cl-dark: rgba(46, 47, 66, 1);
-    --cl-success: rgba(49, 208, 170, 1);
-    --cl-text: rgba(67, 68, 85, 1);
-    --cl-subtle_text: rgba(142, 143, 153, 1);
-    --cl-accent: rgba(231, 233, 252, 1);
+    --cl-primary_brand: #4d5ae5;
+    --cl-pressed_state: #404bbf;
+    --cl-dark: #2e2f42;
+    --cl-success: #31d0aa;
+    --cl-text: #434455;
+    --cl-subtle_text: #8e8f99;
+    --cl-accent: #e7e9fc;
     /* --cl-accent: #F4F4FD; */
     /* --cl-accent: rgba(231, 233, 252, 1); */
-    --cl-accent: #F4F4FD;
+    --cl-accent: #f4f4fd;
     --cl-light : rgba(244, 244, 253, 1);
-    --cl-modal_overlay: rgba(46, 47, 66, 0.4);
-    --cl-hero_background: rgba(46, 47, 66, 0.7);
-    --cl-white_background: rgba(255, 255, 255, 1);
-    --cl-modal_background: gba(252, 252, 252, 1);
+    --cl-modal_overlay: #2e2f4266;
+    --cl-hero_background: #2e2f42b3;
+    --cl-white_background: #ffffff;
+    --cl-modal_background: #fcfcfc;
 }
 /**
 |===============================
