@@ -183,6 +183,7 @@ color: var(--cl-white_background);
 }
 .footer-span-logo{
     color: #F4F4FD;
+    background-color: var(--cl-dark);
 font-family:  "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -202,6 +203,7 @@ text-transform: uppercase;
 text-align: left;
 color: var(--cl-primary_brand);
 text-decoration: none;
+background-color: var(--cl-dark);
 }
 .footer-text {
     color:#F4F4FD;
