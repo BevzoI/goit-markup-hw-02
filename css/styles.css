@@ -82,6 +82,14 @@ text-transform: uppercase;
 }
 
 /*header-nav-list*/
+.header-nav-link {
+    text-decoration: none;
+
+}
+.header-nav-link:hover,
+.header-nav-link:focus { 
+    color: var(--cl-pressed_state) ;
+} 
 .header-nav-link:active {
     color: var(--cl-pressed_state);
 }
