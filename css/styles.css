@@ -82,10 +82,6 @@ text-transform: uppercase;
 }
 
 /*header-nav-list*/
-.header-nav-list {
-    text-decoration: none;
-
-}
 .header-nav-link:active {
     color: var(--cl-pressed_state);
 }
@@ -96,8 +92,8 @@ text-transform: uppercase;
     color: var(--cl-dark);
     text-decoration: none;
 }
-.header-nav-list:hover,
-.header-nav-list:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: var(--cl-pressed_state);
 }
 .address-list {
@@ -267,7 +263,7 @@ text-decoration: none;
     color: var(--cl-white_background);
 }
 /*all images*/
-.images-link link {
+.link {
     text-decoration: none;
     background: var(--cl-white_background);
 
