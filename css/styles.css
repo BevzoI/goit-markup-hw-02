@@ -58,7 +58,7 @@ header:focus {
     color: var(--cl-pressed_state);
 }
 
-.heder-logo {
+.heder-logo link {
 color: var(--cl-dark);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -82,6 +82,10 @@ text-transform: uppercase;
 }
 
 /*header-nav-list*/
+.header-nav-list {
+    text-decoration: none;
+
+}
 .header-nav-link:active {
     color: var(--cl-pressed_state);
 }
@@ -92,8 +96,8 @@ text-transform: uppercase;
     color: var(--cl-dark);
     text-decoration: none;
 }
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-list:hover,
+.header-nav-list:focus {
     color: var(--cl-pressed_state);
 }
 .address-list {
