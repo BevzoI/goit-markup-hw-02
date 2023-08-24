@@ -43,7 +43,7 @@ text-decoration: none;
         list-style: none;
     }
 /* header style */
-header {
+.header {
 font-family: Roboto ;
 size: 56px ;
 text-decoration: none;
@@ -53,8 +53,8 @@ line-height: 1.5 ;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
-header:hover,
-header:focus {
+.header:hover,
+.header:focus {
     color: var(--cl-pressed_state);
 }
 
