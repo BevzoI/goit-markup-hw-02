@@ -178,10 +178,10 @@ color: var(--cl-white_background);
     letter-spacing: 0.02em;
 }
 /*footer*/
-.footer{
+.footer {
     background-color: var(--cl-dark);
 }
-.footer-span-logo{
+.footer-span-logo {
     color: #F4F4FD;
     background-color: var(--cl-dark);
 font-family:  "Raleway", sans-serif;
