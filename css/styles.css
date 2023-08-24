@@ -88,15 +88,15 @@ color: var(--cl-primary_brand) ;
 }
 
 /*header-nav-list*/
-.header-nav-link {
+.link {
     text-decoration: none;
-
+    color: var(--cl-text);
 }
-.header-nav-link:hover,
-.header-nav-link:focus { 
+.link:hover,
+.link:focus { 
     color: var(--cl-pressed_state) ;
 } 
-.header-nav-link:active {
+.link:active {
     color: var(--cl-pressed_state);
 }
 
