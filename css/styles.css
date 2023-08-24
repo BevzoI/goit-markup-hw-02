@@ -72,10 +72,13 @@ text-decoration: none;
 .nav-title:focus {
     color: var(--cl-pressed_state);
 }
-
+.address {
+    font-style: normal ;
+}
 .address-detail {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--cl-text);
 }
 
 .address-detail:hover,
