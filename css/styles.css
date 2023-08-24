@@ -43,8 +43,45 @@ text-decoration: none;
         list-style: none;
     }
 /* header style */
+.logo {
+    color: var(--cl-dark);
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-accent {
+    color: var(--cl-primary_brand);
+    font-family: var(--accent-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+}
+.nav-title {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: var(--cl-dark);
+}
 
+.nav-title:hover,
+.nav-title:focus {
+    color: var(--cl-pressed_state);
+}
 
+.address-detail {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-detail:hover,
+.address-detail:focus {
+    color: var(--cl-pressed_state);
+}
 /*hero image*/
 .hero-img {
     background-color: var(--cl-dark);
